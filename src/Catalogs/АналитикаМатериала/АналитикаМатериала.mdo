@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d21056a5-8d77-45a8-84ba-22137ee8e143">
+  <producedTypes>
+    <objectType typeId="51041f32-afec-4541-8671-1208a538d860" valueTypeId="6f17bea6-1c5d-44f7-801c-30912201b4ca"/>
+    <refType typeId="d95310e6-bb25-430a-ba09-9c25d4361c23" valueTypeId="cc707672-2fd9-4ef7-8c1f-1bb55c071b81"/>
+    <selectionType typeId="7d49a23d-29e9-4b16-a5e8-63f0d5f15e36" valueTypeId="ba520a90-05cc-48b1-9a35-1ce79df50ee3"/>
+    <listType typeId="bbaa398c-f1b8-4577-add8-158e20b7cc75" valueTypeId="0b0ee27c-51b7-4016-a322-233a6c8d368c"/>
+    <managerType typeId="a417cb66-7962-4db5-84ae-be74c79e628b" valueTypeId="3c4653f9-832b-448f-9ac5-fc4b8c5266a3"/>
+  </producedTypes>
+  <name>АналитикаМатериала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аналитика материала</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АналитикаМатериала.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <choiceDataGetModeOnInputByString>Background</choiceDataGetModeOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <editType>InDialog</editType>
+  <tabularSections uuid="ef8c5a50-3576-4178-aaee-08a853da04af">
+    <producedTypes>
+      <objectType typeId="c5c2c5ea-07c7-450f-b195-fd1ba3af433d" valueTypeId="cc30ce2f-05a6-41db-9df7-a2bda815ad4f"/>
+      <rowType typeId="5e1e5f8c-316b-4bea-b8fe-fca002b07520" valueTypeId="ef8fd44b-8693-4afb-832c-3febaf16005e"/>
+    </producedTypes>
+    <name>Проекты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проекты</value>
+    </synonym>
+    <attributes uuid="f8ad4e2c-4216-442a-965b-45f5e666052e">
+      <name>Проект</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проект</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Темы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="5210994a-7e85-4088-9d09-16dfedb9de23">
+    <producedTypes>
+      <objectType typeId="caa42de4-c11a-4961-b6b0-655cbe66580a" valueTypeId="1f6bfc05-9199-48b2-97ac-a78a81960c8b"/>
+      <rowType typeId="b2b954fd-f8c5-44fc-94aa-53d325a632e3" valueTypeId="687afb4d-323b-426a-bd27-98581954f3de"/>
+    </producedTypes>
+    <name>Теги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Теги</value>
+    </synonym>
+    <attributes uuid="7b55354c-0fd6-4072-b993-0bdb626f54b1">
+      <name>Тег</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тег</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Тег</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

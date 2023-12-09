@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a1e67bd-6def-4be7-a06e-bc599da4eb27">
+  <producedTypes>
+    <objectType typeId="487e3f4f-ddc9-4b65-ae08-67c5f0633f77" valueTypeId="441df34f-f146-448f-821e-4f3d19344f3e"/>
+    <refType typeId="f0ad5cfb-5884-4994-8c62-daa544f60e90" valueTypeId="f16ea4b5-a97a-4fe4-8023-1b11e27a0315"/>
+    <selectionType typeId="ed8f0ac2-00f6-4e00-8d0c-c6fb3010a41f" valueTypeId="41df67a6-adfc-48ba-9de7-509853398c81"/>
+    <listType typeId="41f264f3-ae5b-4837-8484-85fb492c9206" valueTypeId="105e6fd0-8d19-4c2c-a34b-12cd9d3b185a"/>
+    <managerType typeId="77afcc4a-9cd1-45ef-b546-802af7226b78" valueTypeId="a575742d-44e0-441d-94f4-321c5bb94dcd"/>
+  </producedTypes>
+  <name>Файлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Файлы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Файл</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список файлов</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Файлы.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="1b86bc72-2154-4769-b4fb-fa1511dfa75e">
+    <name>ДвоичныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Двоичные данные</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="70dea261-470e-4dee-99b1-848d602ff04e">
+    <name>ОтносительныйПуть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Относительный путь</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>900</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2444a05c-b8cc-400e-ad13-6f6e35c1746d">
+    <name>ТипВложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыВложений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ТипыВложений.EnumValue.Текст</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5aa55b80-1575-4e1e-9e1c-418239595e6c">
+    <name>СпособХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ хранения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.СпособыХранения.EnumValue.ВБазе</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="31f704e9-94c3-420c-baa1-95d19bc0c9d1">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e06c3acd-45a1-41a2-8b4c-d09016c3792b">
+  <producedTypes>
+    <selectionType typeId="1c989dd5-767f-428e-ac6f-20d2c086967e" valueTypeId="12a35e01-45be-48bc-a1be-e12985b8821a"/>
+    <listType typeId="de397b12-58f9-42e8-ac34-723d3252288a" valueTypeId="2cb5ad37-56e1-442b-b96d-cb2baaec44de"/>
+    <managerType typeId="1422a878-d978-4e68-9fae-c6f080493e23" valueTypeId="8bf8ffee-bce1-4978-99e6-a59979389b61"/>
+    <recordSetType typeId="fb83d25b-2c75-4eb6-9c1f-1b3f8bf2acd5" valueTypeId="72e14689-602c-4446-92ab-6f8c8b9697cc"/>
+    <recordKeyType typeId="f64c29e2-b748-46fe-919e-61cb82cf804c" valueTypeId="5e71d690-a543-4beb-a66e-84140d7cbe94"/>
+    <recordType typeId="9265ec7d-4320-4064-820f-14cace6efc84" valueTypeId="292b1dcc-8aab-42cf-a57d-05a3120cfeb8"/>
+    <recordManagerType typeId="90781e62-0a9d-471d-9e2b-6020cd030009" valueTypeId="f35a3feb-b4ea-4769-a569-bc7776ccee96"/>
+  </producedTypes>
+  <name>ДанныеПоМатериалу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные по материалу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список данных по материалам</value>
+  </listPresentation>
+  <resources uuid="f2292688-c579-496d-8f1e-9e93fc75b678">
+    <name>Вложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вложение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Файлы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="65e93f0e-d050-426b-a8de-5d46a8f13618">
+    <name>ПредставлениеВложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f54c6266-6524-4463-86d9-928fe170c375">
+  <producedTypes>
+    <refType typeId="75a69845-7098-4543-87de-686f11d4acbc" valueTypeId="fb498efe-ff49-43fb-ab34-8db29de005c1"/>
+    <listType typeId="0146cf5d-e3ba-48b8-b9b1-1a34482e8506" valueTypeId="949ef27d-7cea-4a40-93eb-5551041f2243"/>
+    <managerType typeId="5eb3d895-9cc8-4db3-b402-30521a83da34" valueTypeId="82b5e91c-1aec-43a1-b167-60d1e5fd129e"/>
+  </producedTypes>
+  <name>ТипыВложений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы вложений</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="363cff5b-991e-42f5-ac13-fa26c46607f3">
+    <name>Изображение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изображение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ef2236e1-31aa-47c0-ab20-bca3ce52e862">
+    <name>ФайлПриложенияНаКомпьютере</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл приложения на компьютере</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ddce89b5-e166-404b-8976-5dba21405ce7">
+    <name>WEBСсылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>WEB Ссылка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cdabd043-82a9-43bb-8d1c-185e2ca16bf9">
+    <name>Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

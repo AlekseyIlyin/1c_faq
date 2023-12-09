@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1614b39c-48ca-4ac2-af77-c7f28b38aab5">
+  <producedTypes>
+    <refType typeId="9f9c5cbf-340d-4198-bfa8-6433661b5a52" valueTypeId="667f914a-deb4-4cc3-8b1a-a9996eb6ed36"/>
+    <listType typeId="e43b9237-cf3c-4f05-9117-5491e4896c4b" valueTypeId="81f09d48-ab17-4bca-aa57-77838e58f66f"/>
+    <managerType typeId="2b1b3e8d-a6fe-4ebd-8908-8dc55c07d4a2" valueTypeId="d60cc805-c0b8-4b49-83d6-21b2ab9db132"/>
+  </producedTypes>
+  <name>СпособыХранения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы хранения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="68e2e57e-25dd-4ff2-a368-cf8304da0f2e">
+    <name>ВБазе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В базе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f4656f40-f09f-4266-96b0-a154eaafe316">
+    <name>Путь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ab832e91-bc67-461f-817d-d928f200ff5d">
+    <name>URL</name>
+    <synonym>
+      <key>ru</key>
+      <value>URL</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

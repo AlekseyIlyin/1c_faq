@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ae46c50-4366-4b04-99c2-664fc63e354d">
+  <name>Поиск</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поиск</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Темы</content>
+  <content>Catalog.Тег</content>
+  <content>InformationRegister.ДанныеПоМатериалу</content>
+  <content>Document.Материал</content>
+  <content>Catalog.АналитикаМатериала</content>
+  <content>Enum.ТипыВложений</content>
+  <content>Catalog.Файлы</content>
+</mdclass:Subsystem>
